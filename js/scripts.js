@@ -186,27 +186,6 @@ $(function() {
     autoplayHoverPause:true
   })
 
-  // /*===============================================
-  //   Google Maps
-  // ===============================================*/
-  // var markerIcon = "images/marker.png";
-  // // Map Initial Location
-  // var initLatitude = 25.01690;
-  // var initLongitude = 121.53981;
-  
-  // var map = new GMaps({
-  //   el: '#map-canvas',
-  //   lat: initLatitude,
-  //   lng: initLongitude,
-  //   zoom: 16,
-  //   scrollwheel: false
-  // });
-  // map.addMarker({
-  //   lat : initLatitude,
-  //   lng : initLongitude,
-  //   icon: markerIcon
-  // });
-
   /*===============================================
     Toggle Menu
   ===============================================*/
