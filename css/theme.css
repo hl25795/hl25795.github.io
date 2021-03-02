@@ -353,6 +353,11 @@ textarea {
 	text-decoration: none;
 }
 
+.col-rarrow {
+	padding: 0;
+	text-align: right;
+}
+
 /*-------------------------------------------------
 	Project
 -------------------------------------------------*/
