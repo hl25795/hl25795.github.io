@@ -256,6 +256,28 @@ textarea {
 }
 
 /*-------------------------------------------------
+	Breadcrumb
+-------------------------------------------------*/
+.breadcrumb li {
+	list-style-type: none;
+	line-height: 20px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.breadcrumb li a {
+	position: relative;
+	padding: 0;
+	color: rgb(20, 20, 20);
+}
+
+.breadcrumb li a:hover,
+.breadcrumb li a:focus {
+	background: transparent;
+	color: rgb(160, 160, 160);
+}
+/*-------------------------------------------------
 	Button
 -------------------------------------------------*/
 
@@ -321,6 +343,11 @@ textarea {
 
 .col-left i {
 	padding: 3px;
+}
+
+.col-center {
+	padding: 0;
+	text-align: center;
 }
 
 .col-right {
