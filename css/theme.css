@@ -132,6 +132,13 @@ textarea {
 
 }
 
+.img-badge {
+    max-height: 50px;
+    position: relative;
+	margin: 4px 2px;
+
+}
+
 .box {
     margin-bottom: 20px;
     padding: 30px 100px 50px;
@@ -295,7 +302,6 @@ textarea {
     margin: 4px 2px;
     cursor: pointer;
     position: relative;
-    top: 10px;
 }
 .button:hover {
     background-color: #787878;
@@ -308,9 +314,7 @@ textarea {
     font-size: 1em;
     font-weight: 300;
 }
-.aboutbtn {
 
-}
 .aboutbtn a:hover {
     color: white;
 }
