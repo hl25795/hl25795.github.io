@@ -160,9 +160,7 @@ mark {
 		rgba(0, 137, 167, 0) 55%,
  		rgba(0, 137, 167, 0) 100%
 	  );
-	-webkit-box-decoration-break: clone;
-	box-decoration-break: clone;
-  }
+}
 
 /*-------------------------------------------------
 	Toggle Menu
