@@ -31,9 +31,9 @@ h1 {
   font-family: 'SourceCodeProRegular';
   display: inherit;
   margin: 0;
-  padding: 60px 0 10px;
+  padding: 10px 0 10px;
   text-align: center;
-  font-size: 45px;
+  font-size: 50px;
   font-weight: 700;
   line-height: normal;
   color: #1C1C1C;
@@ -53,13 +53,14 @@ h2 {
 
 h3 {
 	margin: 0 0 10px 0;
-	font-size: 18px;
+	font-size: 15px;
+	font-weight: 600;
 }
 
 h4 {
 	margin: 0 0 10px 0;
 	font-size: 20px;
-  font-weight: 300;
+  	font-weight: 300;
 }
 
 h5 {
@@ -125,7 +126,13 @@ textarea {
 	-o-border-radius: 50%;
 	border-radius: 50%;
 }
-
+.img-home {
+	padding: 120px 0 10px;
+    width: 150px;
+    position: relative;
+	margin-left: auto;
+  	margin-right: auto;
+}
 .img-80full {
     width: 100%;
     position: relative;
@@ -161,102 +168,20 @@ mark {
  		rgba(0, 137, 167, 0) 100%
 	  );
 }
-
 /*-------------------------------------------------
-	Toggle Menu
+	Menu
 -------------------------------------------------*/
-.toggle-btn {
-	position: fixed;
-	z-index: 999;
-	top: 0px;
-	right: 0px;
-	background: #fff;
-	width: 60px;
-	height: 60px;
-	margin: 0;
-	padding: 0;
-	border: none;
-	line-height: 60px;
-}
-
-.toggle-btn:focus {
-	outline: none;
-}
-
-.lines {
-	position: relative;
-	display: inline-block;
-	background: rgb(20, 20, 20);
-	width: 20px;
-	height: 2px;
-	margin: 0;
-	padding: 0;
-	vertical-align: middle;
-}
-
-.lines::before,
-.lines::after {
-	position: absolute;
-	content: '';
-	left: 0;
-	display: inline-block;
-	background: rgb(20, 20, 20);
-	width: 20px;
-	height: 2px;
-}
-
-.lines::before {
-	top: 5px;
-}
-
-.lines::after {
-	top: -5px;
-}
-
-.toggle-close,
-.toggle-close .lines {
-	background: transparent;
-}
-
-.toggle-close .lines::before,
-.toggle-close .lines::after {
-	top: 0;
-	-webkit-transform-origin: 50% 50%;
-	transform-origin: 50% 50%;
-}
-
-.toggle-close .lines::before {
-	-webkit-transform: rotate3d(0, 0, 1, 45deg);
-	transform: rotate3d(0, 0, 1, 45deg);
-}
-
-.toggle-close .lines::after {
-	-webkit-transform: rotate3d(0, 0, 1, -45deg);
-	transform: rotate3d(0, 0, 1, -45deg);
-}
-
 .menu {
 	position: fixed;
 	top: 0;
-	left: 0;
+	left: 50px;
 	z-index: 998;
 	background: #fff;
 	width: 100%;
-	-webkit-transform: translateY(-100%);
-	-moz-transform: translateY(-100%);
-	-ms-transform: translateY(-100%);
-	transform: translateY(-100%);
-}
-
-.show-menu {
-	-webkit-transform: translateY(0);
-	-moz-transform: translateY(0);
-	-ms-transform: translateY(0);
-	transform: translateY(0);
 }
 
 .nav {
-	text-align: center;
+	text-align: left;
 }
 
 .nav li {
@@ -331,17 +256,6 @@ mark {
     font-weight: 300;
 }
 
-.aboutbtn a:hover {
-    color: white;
-}
-
-.aboutbtn a:active {
-    color: white;
-}
-
-.aboutbtn a:visited {
-    color: white;
-}
 
 /*-------------------------------------------------
 	Footer

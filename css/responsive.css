@@ -77,7 +77,6 @@
 		-o-transition: ease-out 0.3s;
 		transition: ease-out 0.3s;
 	}
-
 	.nav li.active a::before {
 		width: 100%;
 	}
@@ -215,6 +214,9 @@
   5. Screen resolution less than 991px
 -------------------------------------------------*/
 @media only screen and (max-width: 991px) {
+	.menu{
+		left: 20px;
+	}
 	.nav li a {
 		border-bottom: 1px solid transparent;
 		-webkit-transition: linear 0.2s;
@@ -269,7 +271,24 @@
   6. Screen resolution less than 767px
 -------------------------------------------------*/
 @media only screen and (max-width: 767px) {
-	.menu {
+	.menu{
+		left: 20px;
+	}
+	.nav li a {
+		position: relative;
+		border-bottom: 1px solid transparent;
+		/* -webkit-transition: linear 0.2s;
+		-moz-transition: linear 0.2s;
+		-o-transition: linear 0.2s;
+		transition: linear 0.2s; */
+	}
+	.nav li.active a {
+		border-color: rgb(30, 30, 30);
+	}
+	.nav li a:hover {
+		border-color: rgb(30, 30, 30);
+	}
+	/* .menu {
 		height: 100%;
 		-webkit-transition: ease-out 0.3s;
 		-moz-transition: ease-out 0.3s;
@@ -291,7 +310,7 @@
 	}
 	.nav li:last-child {
 		margin-bottom: 0;
-	}
+	} */
 	.home-background, 
 	.skills-background, 
 	.hire-background, 
