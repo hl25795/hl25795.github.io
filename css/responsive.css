@@ -217,6 +217,11 @@
 	.menu{
 		left: 20px;
 	}
+	.nav li {
+		display: inline-block;
+		margin: 0 10px;
+		padding: 20px 0;
+	}
 	.nav li a {
 		border-bottom: 1px solid transparent;
 		-webkit-transition: linear 0.2s;
@@ -273,21 +278,22 @@
 @media only screen and (max-width: 767px) {
 	.menu{
 		left: 20px;
+		height: 60px;
 	}
-	.nav li a {
+	/* .nav li a {
 		position: relative;
 		border-bottom: 1px solid transparent;
 		/* -webkit-transition: linear 0.2s;
 		-moz-transition: linear 0.2s;
 		-o-transition: linear 0.2s;
-		transition: linear 0.2s; */
+		transition: linear 0.2s; 
 	}
 	.nav li.active a {
 		border-color: rgb(30, 30, 30);
 	}
 	.nav li a:hover {
 		border-color: rgb(30, 30, 30);
-	}
+	} */
 	/* .menu {
 		height: 100%;
 		-webkit-transition: ease-out 0.3s;
@@ -384,6 +390,16 @@
   7. Screen resolution less than 480px
 -------------------------------------------------*/
 @media only screen and (max-width: 480px) {
+	.menu{
+		left: 0px;
+	}
+	.nav{
+		text-align: center;
+	}
+	.nav li{
+		letter-spacing: 0.5px;
+		font-size: 10px;
+	}
 	.section-background {
 		padding: 80px 30px;
 	}
